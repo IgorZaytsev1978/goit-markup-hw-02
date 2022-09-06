@@ -1,0 +1,133 @@
+ul {
+  list-style: none;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-header:hover,
+.contact-header:focus {
+  color: rgba(33, 150, 243, 1);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.logo-up {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+.contact-header {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+.first-section {
+  background-color: #2f303a;
+}
+.business-solutions {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
+.order-services {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+
+.feature-list {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.features-detail {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  color: #757575;
+}
+.our-buisness {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+.our-command {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+.name-command {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+}
+.profession-command {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-down {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+.filter-button:hover {
+  color: white;
+  background-color: rgba(33, 150, 243, 1);
+}
+.filter-button {
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.name-project {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+.type-project {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  color: #757575;
+}
