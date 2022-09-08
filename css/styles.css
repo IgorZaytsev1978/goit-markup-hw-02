@@ -1,5 +1,6 @@
 :root {
   --blue-color: #2196F3;
+  --blue-color-activ-button: #188CE8;
   --black-color: #000000;
   --basic-dark-color: #212121;
   --header-contact-color: #757575;
@@ -23,9 +24,14 @@ ul {
 .contact-footer-tel:focus {
   color: var(--blue-color);
 }
+.order-services:hover,
+.order-services:focus {
+  background-color: var(--blue-color-activ-button);
+}
 body {
   font-family: "Roboto", sans-serif;
   color:var(--basic-dark-color); 
+  background-color: var(--white-color);
 }
 .site-nav {
   text-decoration: none;
@@ -85,11 +91,9 @@ body {
   color: var(--white-color);
   cursor: pointer;
 }
-.our-peculiarities {
+.visually-hidden {
    position: absolute; white-space: nowrap; width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; clip: rect(0 0 0 0); clip-path: inset(50%); margin: -1px; 
   }
-
-
 .feature-list {
   font-size: 14px;
   line-height: 1.17;
@@ -111,12 +115,18 @@ body {
   letter-spacing: 0.03em;
   color: var(--basic-dark-color);
 }
+.section-our-command {
+  background-color: var(--footer-button-backgroung-color);
+}
 .our-command {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--basic-dark-color);
+}
+.team-members {
+  background-color: var(--white-color);
 }
 .name-command {
   font-size: 16px;
